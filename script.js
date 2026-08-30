@@ -216,7 +216,6 @@ const translations = {
         srvMentoringMalkyRole: 'Program Director',
         srvMentoringMalkyDesc: 'Supervises the mentoring program services, coordinates matching processes, and oversees supervisor meetings to ensure high-quality mentoring relationships for local youth.',
         teamMalkyMeyersName: 'Malky Meyers',
-        teamMalkyMeyersRole: 'Mentoring Program Director',
         srvMentoringBtn: 'Schedule Intake',
 
         srvTeensTitle: 'Supporting Teens in Transition',
@@ -709,7 +708,6 @@ const translations = {
         srvMentoringMalkyRole: 'מנהלת תוכנית החונכות',
         srvMentoringMalkyDesc: 'מפקחת על שירותי תוכנית החונכות, מרכזת את תהליכי ההתאמה ומנהלת ישיבות צוות להבטחת קשרי חונכות איכותיים עבור בני נוער מקומיים.',
         teamMalkyMeyersName: 'מלכי מאיירס',
-        teamMalkyMeyersRole: 'מנהלת תוכנית החונכות',
         srvMentoringBtn: 'תיאום שיחת פגישה',
 
         srvTeensTitle: 'תמיכה במתבגרים בשלבי מעבר',
@@ -1283,11 +1281,23 @@ document.addEventListener('DOMContentLoaded', () => {
             sessionStorage.setItem('homeScrollPosition', window.scrollY);
         }
 
-        // Update active class on nav links
+        // Update active class on nav links.
+        // script.js is shared with about.html and team.html, which have no hash
+        // to match, so match those on the file name instead. Without this the
+        // reset below clears their active link and never restores it.
+        const currentPage = (window.location.pathname.split('/').pop() || 'index.html')
+            .replace(/\.html$/, '') || 'index';
+        const isStandalonePage = currentPage !== 'index';
+
         document.querySelectorAll('.nav-link').forEach(link => {
             link.classList.remove('active');
             const linkHash = link.getAttribute('href');
-            if (linkHash === hash || (hash === '#home' && linkHash === '#home')) {
+            if (isStandalonePage) {
+                const linkPage = linkHash.split('#')[0].replace(/\.html$/, '');
+                if (linkPage === currentPage) {
+                    link.classList.add('active');
+                }
+            } else if (linkHash === hash || (hash === '#home' && linkHash === '#home')) {
                 link.classList.add('active');
             } else if (targetViewId === 'view-home' && linkHash === hash) {
                 link.classList.add('active');

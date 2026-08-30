@@ -1186,6 +1186,11 @@ ul {
     margin-bottom: 0;
 }
 
+/* The contact panel is a flex column that supplies its own 30px gap. */
+.contact-info-panel .view-header {
+    margin-bottom: 0;
+}
+
 .stories-section {
     padding: 100px 0;
     position: relative;
@@ -2290,7 +2295,7 @@ ul {
    STANDALONE CONTACT PAGE
    ========================================== */
 .contact-page-main {
-    padding: 160px 0 100px 0;
+    padding: 180px 0 100px 0;
     background: linear-gradient(180deg, var(--primary-light) 0%, #EDF2F7 100%);
     position: relative;
     overflow: hidden;

@@ -1170,6 +1170,22 @@ ul {
 /* ==========================================
    REPLAYS & UPDATES (STORIES SECTION)
    ========================================== */
+/* Top-of-view heading block. Left aligned, to match the service views,
+   About, and Team. Distinct from .section-header, which centres a heading
+   that sits part way down a page. */
+.view-header {
+    max-width: 700px;
+    margin-bottom: 60px;
+}
+
+/* The hero description caps at 580px, which is too narrow for a heading
+   block that stands alone above a grid. Both classes are needed: a lone
+   .view-header-desc loses to .service-hero-desc on source order. */
+.service-hero-desc.view-header-desc {
+    max-width: 700px;
+    margin-bottom: 0;
+}
+
 .stories-section {
     padding: 100px 0;
     position: relative;

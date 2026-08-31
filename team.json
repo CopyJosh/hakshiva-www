@@ -1,0 +1,146 @@
+{
+  "members": [
+    {
+      "image": "images/rabbi_amatsia_spigler.png",
+      "name": {
+        "en": "Rabbi Amatsia Spigler",
+        "he": "הרב אמציה שפיגלר"
+      },
+      "role": {
+        "en": "CEO",
+        "he": "מנכ\"ל"
+      }
+    },
+    {
+      "image": "images/rabbi_dovid_sipper.png",
+      "name": {
+        "en": "Rabbi Dovid Sipper",
+        "he": "הרב דוד סיפר"
+      },
+      "role": {
+        "en": "Executive Director",
+        "he": "מנהל בפועל"
+      }
+    },
+    {
+      "image": "images/yossi_wachtel.png",
+      "name": {
+        "en": "Yossi Wachtel",
+        "he": "יוסי וכטל"
+      },
+      "role": {
+        "en": "Deputy CEO and Director of Teen Services",
+        "he": "סמנכ\"ל ומנהל תחום נוער"
+      }
+    },
+    {
+      "image": "images/adi_kahn.png",
+      "name": {
+        "en": "Adi Kahn",
+        "he": "עדי כהן"
+      },
+      "role": {
+        "en": "Head Director of Hakshiva Therapy Services",
+        "he": "מנהלת ראשית של שירותי הטיפול בהקשיבה"
+      }
+    },
+    {
+      "image": "images/avatar_placeholder.jpg",
+      "name": {
+        "en": "Malky Meyers",
+        "he": "מלכי מאיירס"
+      },
+      "role": {
+        "en": "Mentoring & Social Skills Program Director",
+        "he": "מנהלת תוכניות חונכות וכישורים חברתיים"
+      }
+    },
+    {
+      "image": "images/dr_caroline_peyser.png",
+      "name": {
+        "en": "Dr. Caroline Peyser",
+        "he": "ד\"ר קרוליין פייזר"
+      },
+      "role": {
+        "en": "Clinical Supervisor",
+        "he": "מפקחת קלינית"
+      }
+    },
+    {
+      "image": "images/joy_epstein.jpg",
+      "name": {
+        "en": "Joy Epstein",
+        "he": "ג'וי אפשטיין"
+      },
+      "role": {
+        "en": "Director of Couples & Family Therapy",
+        "he": "מנהלת תחום טיפול זוגי ומשפחתי"
+      }
+    },
+    {
+      "image": "images/avatar_placeholder.jpg",
+      "name": {
+        "en": "Ashira Ofier",
+        "he": "אשירה אופיר"
+      },
+      "role": {
+        "en": "Director & Clinical Team Manager of the Child-Parent Clinic",
+        "he": "מנהלת ומנהלת הצוות הקליני של קליניקת הורים-ילדים"
+      }
+    },
+    {
+      "image": "images/rivka_gross.png",
+      "name": {
+        "en": "Rivka Gross",
+        "he": "רבקה גרוס"
+      },
+      "role": {
+        "en": "Office Manager & Case Manager",
+        "he": "מנהלת משרד ומנהלת טיפול"
+      }
+    },
+    {
+      "image": "images/avatar_placeholder.jpg",
+      "name": {
+        "en": "Malky Cohn",
+        "he": "מלכי כהן"
+      },
+      "role": {
+        "en": "Finance Manager",
+        "he": "מנהלת כספים"
+      }
+    }
+  ],
+  "board": {
+    "title": {
+      "en": "Board of Directors",
+      "he": "חברי הוועד המנהל"
+    },
+    "members": [
+      "Yosef Jason (Chairman)",
+      "Rabbi Avraham Wellins",
+      "Dr. Fred Naider",
+      "Nesanel Goode",
+      "Baruch Dvinsky"
+    ],
+    "membersHe": [
+      "יוסף ג'ייסון (יו\"ר)",
+      "הרב אברהם ולינס",
+      "ד\"ר פרד ניידר",
+      "נתנאל גוד",
+      "ברוך דבינסקי"
+    ]
+  },
+  "rabbinic": {
+    "title": {
+      "en": "Rabbinic Advisor",
+      "he": "ועדה רוחנית מייעצת"
+    },
+    "members": [
+      "Rabbi Elimelech Kornfeld"
+    ],
+    "membersHe": [
+      "הרב אלימלך קורנפלד"
+    ]
+  }
+}

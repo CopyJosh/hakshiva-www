@@ -151,8 +151,6 @@ const translations = {
         srvClinicChildServCreativeDrama: 'Psychodrama',
         srvClinicChildServCreativePlay: 'Play Therapy',
         srvClinicChildCommTitle: 'Community Education & Support',
-        teamAshiraName: 'Ashira Ofier',
-        teamAshiraRole: 'Director & Clinical Team Manager of the Child-Parent Clinic',
 
         srvAdolescentsTitle: 'Adolescents',
         srvAdolescentsPara: 'Adolescence brings rapid changes and boundary-testing, often causing tensions between teens and parents. Teens may also struggle with issues like anxiety, depression, low self-esteem, or social challenges that they hesitate to share at home. Our clinic offers professional, affordable counseling by observant, bilingual (English/Hebrew) therapists. Using modalities like CBT, art/play therapy, and family counseling, we help teens navigate emotional struggles and build resilience in a safe, objective environment.',
@@ -215,7 +213,6 @@ const translations = {
         srvMentoringMalkyName: 'Malky Meyers',
         srvMentoringMalkyRole: 'Program Director',
         srvMentoringMalkyDesc: 'Supervises the mentoring program services, coordinates matching processes, and oversees supervisor meetings to ensure high-quality mentoring relationships for local youth.',
-        teamMalkyMeyersName: 'Malky Meyers',
         srvMentoringBtn: 'Schedule Intake',
 
         srvTeensTitle: 'Supporting Teens in Transition',
@@ -294,15 +291,6 @@ const translations = {
         replayTag: 'Updates & News',
         replayDesc: 'Stay up to date with our community work, awards, and upcoming professional programs.',
         replaySidebarTitle: 'Latest Announcements',
-        story1Date: 'December 18, 2025',
-        story1Title: 'My Space',
-        story1Desc: 'A unique program designed for adolescent girls, helping them with their homework and engaging after-school activities in a warm, supportive environment.',
-        story2Date: 'December 14, 2025',
-        story2Title: 'ADHD parenting workshop',
-        story2Desc: 'Empowering parents with practical tools, strategies, and clinical insights to support children facing attention and executive function challenges.',
-        story3Date: 'December 9, 2025',
-        story3Title: 'Cog Fun',
-        story3Desc: 'Our next cohort for Cognitive-Functional training is open, helping children build executive functions and self-regulation skills.',
         storyLink: 'Read article',
 
         contactTag: 'Get in Touch',
@@ -406,27 +394,7 @@ const translations = {
         teamTag: 'COMPASSIONATE CARE',
         teamTitle: 'Meet Our Professional Team',
         teamDesc: 'Our dedicated staff of licensed therapists, educators, and counselors are here to help children, teens, and families navigate emotional and academic challenges.',
-        teamCeoName: 'Rabbi Amatsia Spigler',
-        teamCeoRole: 'CEO',
-        teamEdName: 'Rabbi Dovid Sipper',
-        teamEdRole: 'Executive Director',
-        teamTeenName: 'Yossi Wachtel',
-        teamTeenRole: 'Deputy CEO and Director of Teen Services',
-        teamJoyName: 'Joy Epstein',
-        teamJoyRole: 'Director of Couples & Family Therapy',
-        teamCarolineName: 'Dr. Caroline Peyser',
-        teamCarolineRole: 'Clinical Supervisor',
-        teamAdiName: 'Adi Kahn',
-        teamAdiRole: 'Head Director of Hakshiva Therapy Services',
 
-        teamRivkaName: 'Rivka Gross',
-        teamRivkaRole: 'Office Manager & Case Manager',
-        teamMalkyName: 'Malky Cohn',
-        teamMalkyRole: 'Finance Manager',
-        boardTitle: 'Board of Directors',
-        boardMembers: 'Yosef Jason (Chairman) | Rabbi Avraham Wellins | Dr. Fred Naider | Nesanel Goode | Baruch Dvinsky',
-        rabbinicTitle: 'Rabbinic Advisor',
-        rabbinicMembers: 'Rabbi Elimelech Kornfeld',
         
         srvTabSocialSkills: 'Social Skills Program',
         srvSocialSkillsDesc: 'We equip children and adolescents with the practical tools they need to build healthy connections, communicate effectively with peers, and thrive in group settings. Our supportive environment helps young people unlock their full social potential and build lasting self-confidence.',
@@ -450,7 +418,6 @@ const translations = {
         srvSocialSkillsOutcome3Desc: 'Understand the connection between thoughts, feelings, and actions.',
         srvSocialSkillsOutcome4Title: 'Develop',
         srvSocialSkillsOutcome4Desc: 'Develop a tailor-made plan for long-term success.',
-        teamMalkyMeyersRole: 'Mentoring & Social Skills Program Director',
         srvClinicCoreTitle: 'Our Core Specialized Services:',
         srvClinicCore1: 'Personalized one-on-one therapy',
         srvClinicCore2: 'Dedicated treatment for anxiety, depression, trauma, and other conditions',
@@ -643,8 +610,6 @@ const translations = {
         srvClinicChildServCreativeDrama: 'פסיכודרמה',
         srvClinicChildServCreativePlay: 'טיפול במשחק',
         srvClinicChildCommTitle: 'חינוך ותמיכה קהילתית',
-        teamAshiraName: 'אשירה אופיר',
-        teamAshiraRole: 'מנהלת ומנהלת הצוות הקליני של קליניקת הורים-ילדים',
 
         srvAdolescentsTitle: 'מתבגרים',
         srvAdolescentsPara: 'גיל ההתבגרות מביא איתו שינויים מהירים ובחינת גבולות, שלעיתים קרובות יוצרים מתחים בין מתבגרים להוריהם. בני נוער עלולים להתמודד עם קשיים כגון חרדה, דיכאון, דימוי עצמי נמוך או אתגרים חברתיים שהם מהססים לשתף בבית. הקליניקה שלנו מציעה ייעוץ מקצועי ונגיש על ידי מטפלים דוברי עברית ואנגלית המבינים את צרכי הקהילה. באמצעות שיטות מגוונות כמו CBT, טיפול באמנות/משחק וייעוץ משפחתי, אנו מסייעים למתבגרים להתגבר על אתגרים רגשיים ולפתח חוסן נפשי.',
@@ -707,7 +672,6 @@ const translations = {
         srvMentoringMalkyName: 'מלכי מאיירס',
         srvMentoringMalkyRole: 'מנהלת תוכנית החונכות',
         srvMentoringMalkyDesc: 'מפקחת על שירותי תוכנית החונכות, מרכזת את תהליכי ההתאמה ומנהלת ישיבות צוות להבטחת קשרי חונכות איכותיים עבור בני נוער מקומיים.',
-        teamMalkyMeyersName: 'מלכי מאיירס',
         srvMentoringBtn: 'תיאום שיחת פגישה',
 
         srvTeensTitle: 'תמיכה במתבגרים בשלבי מעבר',
@@ -786,15 +750,6 @@ const translations = {
         replayTag: 'עדכונים וחדשות',
         replayDesc: 'התעדכנו בפעילות הקהילתית שלנו, בפרסים ובתכניות המקצועיות הקרובות.',
         replaySidebarTitle: 'הודעות ועדכונים אחרונים',
-        story1Date: '18 בדצמבר 2025',
-        story1Title: 'המקום שלי',
-        story1Desc: 'תכנית ייחודית המיועדת לנערות, המסייעת להן בהכנת שיעורי הבית ומציעה פעילויות לאחר שעות הלימודים בסביבה חמה ותומכת.',
-        story2Date: '14 בדצמבר 2025',
-        story2Title: 'סדנת הורים לקשב וריכוז (ADHD)',
-        story2Desc: 'סדנת הורים לילדים עם הפרעות קשב וריכוז (ADHD) המעניקה כלים מעשיים, אסטרטגיות ותובנות קליניות לתמיכה בילדים.',
-        story3Date: '9 בדצמבר 2025',
-        story3Title: 'קוג פאן (Cog-Fun)',
-        story3Desc: 'נפתח המחזור הבא של אימון קוגניטיבי-תפקודי (Cog-Fun) המסייע לילדים לפתח תפקודים ניהוליים ומיומנויות ויסות עצמי.',
         storyLink: 'לקריאת הכתבה',
 
         contactTag: 'צור קשר',
@@ -898,27 +853,7 @@ const translations = {
         teamTag: 'טיפול מסור',
         teamTitle: 'הכירו את הצוות המקצועי שלנו',
         teamDesc: 'הצוות המסור של המטפלים המוסמכים, המחנכים והיועצים שלנו כאן כדי לסייע לילדים, בני נוער ומשפחות להתמודד עם אתגרים רגשיים ולימודיים.',
-        teamCeoName: 'הרב אמציה שפיגלר',
-        teamCeoRole: 'מנכ"ל',
-        teamEdName: 'הרב דוד סיפר',
-        teamEdRole: 'מנהל בפועל',
-        teamTeenName: 'יוסי וכטל',
-        teamTeenRole: 'סמנכ"ל ומנהל תחום נוער',
-        teamJoyName: 'ג\'וי אפשטיין',
-        teamJoyRole: 'מנהלת תחום טיפול זוגי ומשפחתי',
-        teamCarolineName: 'ד"ר קרוליין פייזר',
-        teamCarolineRole: 'מפקחת קלינית',
-        teamAdiName: 'עדי כהן',
-        teamAdiRole: 'מנהלת ראשית של שירותי הטיפול בהקשיבה',
 
-        teamRivkaName: 'רבקה גרוס',
-        teamRivkaRole: 'מנהלת משרד ומנהלת טיפול',
-        teamMalkyName: 'מלכי כהן',
-        teamMalkyRole: 'מנהלת כספים',
-        boardTitle: 'חברי הוועד המנהל',
-        boardMembers: 'יוסף ג\'ייסון (יו"ר) | הרב אברהם ולינס | ד"ר פרד ניידר | נתנאל גוד | ברוך דבינסקי',
-        rabbinicTitle: 'ועדה רוחנית מייעצת',
-        rabbinicMembers: 'הרב אלימלך קורנפלד',
         
         srvTabSocialSkills: 'תוכנית מיומנויות חברתיות',
         srvSocialSkillsDesc: 'אנו מעניקם לילדים ולבני נוער כלים מעשיים הדרושים להם כדי לבנות קשרים בריאים, לתקשר ביעילות עם בני גילם ולשגשג במסגרות קבוצתיות. הסביבה התומכת שלנו מסייעת לצעירים לממש את מלוא הפוטנציאל החברתי שלהם ולבנות ביטחון עצמי מתמשך.',
@@ -942,7 +877,6 @@ const translations = {
         srvSocialSkillsOutcome3Desc: 'להבין את הקשר בין מחשבות, רגשות ומעשים.',
         srvSocialSkillsOutcome4Title: 'פיתוח',
         srvSocialSkillsOutcome4Desc: 'לפתח תוכנית מותאמת אישית להצלחה ארוכת טווח.',
-        teamMalkyMeyersRole: 'מנהלת תוכניות חונכות וכישורים חברתיים',
         srvClinicCoreTitle: 'שירותי הליבה הייחודיים שלנו:',
         srvClinicCore1: 'טיפול פרטני ומותאם אישית (אחד-על-אחד)',
         srvClinicCore2: 'מענה ייעודי לחרדה, דיכאון, טראומה וקשיים רגשיים נוספים',
@@ -1046,12 +980,186 @@ function setLanguage(lang) {
         }
     });
 
+    // Rebuild the JSON-backed sections in the new language.
+    renderEditableContent(lang);
+
     // Dynamic Nedarim Plus iframe language update
     const nedarimIframe = document.getElementById('nedarim-iframe');
     if (nedarimIframe) {
         const langParam = lang === 'he' ? 'he' : 'en';
         nedarimIframe.src = `https://www.matara.pro/nedarimplus/online/?mosad=5775793&NormalDefault=1&groupe=%D7%AA%D7%A8%D7%95%D7%9E%D7%95%D7%AA&Language=${langParam}`;
     }
+}
+
+
+/* -------------------------------------------------------------
+   EDITABLE CONTENT: news.json and team.json
+
+   News items and staff members live in data files at the repo root,
+   not in this dictionary and not in the page markup. To add an
+   announcement or change the team, edit news.json or team.json and
+   commit. No HTML, no translation keys, no image dimensions.
+
+   Dates are stored once as an ISO value (2026-08-31) and formatted
+   per language at render time, so nobody has to write Hebrew months.
+   ------------------------------------------------------------- */
+
+const siteContent = { news: null, team: null };
+
+async function loadSiteContent() {
+    const grab = async (file) => {
+        try {
+            const res = await fetch(file, { cache: 'no-cache' });
+            if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+            return await res.json();
+        } catch (err) {
+            console.error(`Could not load ${file}:`, err);
+            return null;
+        }
+    };
+    const [news, team] = await Promise.all([grab('news.json'), grab('team.json')]);
+    siteContent.news = news;
+    siteContent.team = team;
+}
+
+function formatContentDate(iso, lang) {
+    // Midday avoids the date shifting a day either side of the timezone.
+    const d = new Date(`${iso}T12:00:00`);
+    if (isNaN(d)) return iso;
+    return new Intl.DateTimeFormat(lang === 'he' ? 'he-IL' : 'en-US',
+        { day: 'numeric', month: 'long', year: 'numeric' }).format(d);
+}
+
+function pick(value, lang) {
+    if (value == null) return '';
+    return typeof value === 'string' ? value : (value[lang] || value.en || '');
+}
+
+function renderNews(lang) {
+    const grid = document.querySelector('.updates-grid');
+    if (!grid) return;
+    const items = siteContent.news;
+
+    if (!Array.isArray(items)) {
+        // Never leave the section blank if the file could not be read.
+        grid.innerHTML = '';
+        const note = document.createElement('p');
+        note.className = 'update-desc';
+        note.textContent = lang === 'he'
+            ? 'לא ניתן לטעון את העדכונים כעת. אנא נסו שוב מאוחר יותר או צרו קשר במשרד.'
+            : 'Updates could not be loaded right now. Please try again later, or contact the office.';
+        grid.appendChild(note);
+        return;
+    }
+
+    // Newest first, whatever order the file happens to be in.
+    const sorted = [...items].sort((a, b) => String(b.date).localeCompare(String(a.date)));
+
+    grid.innerHTML = '';
+    sorted.forEach((item) => {
+        const card = document.createElement('article');
+        card.className = 'update-card';
+
+        if (item.image) {
+            const wrap = document.createElement('div');
+            wrap.className = 'update-image-wrapper';
+            const link = document.createElement('a');
+            link.href = item.link || item.image;
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            link.className = 'update-image-link';
+            link.setAttribute('aria-label', lang === 'he' ? 'צפייה בתמונה' : 'View full size image');
+            const img = document.createElement('img');
+            // loading must be set before src, or the fetch starts immediately
+            // and the attribute has no effect.
+            img.loading = 'lazy';
+            img.className = 'update-img';
+            img.alt = item.alt || pick(item.title, lang);
+            img.src = item.image;
+            link.appendChild(img);
+            wrap.appendChild(link);
+            card.appendChild(wrap);
+        }
+
+        const date = document.createElement('div');
+        date.className = 'update-date';
+        date.textContent = formatContentDate(item.date, lang);
+        card.appendChild(date);
+
+        const title = document.createElement('h3');
+        title.className = 'update-title';
+        title.textContent = pick(item.title, lang);
+        card.appendChild(title);
+
+        const desc = document.createElement('p');
+        desc.className = 'update-desc';
+        desc.textContent = pick(item.desc, lang);
+        card.appendChild(desc);
+
+        grid.appendChild(card);
+    });
+}
+
+function renderTeam(lang) {
+    const grid = document.querySelector('.team-grid');
+    if (!grid) return;
+    const data = siteContent.team;
+    if (!data || !Array.isArray(data.members)) return;   // leave the page as-is
+
+    grid.innerHTML = '';
+    data.members.forEach((m) => {
+        const card = document.createElement('article');
+        card.className = 'team-card';
+
+        const wrap = document.createElement('div');
+        wrap.className = 'team-img-wrapper';
+        const img = document.createElement('img');
+        // loading must be set before src, or the fetch starts immediately
+        // and the attribute has no effect.
+        img.loading = 'lazy';
+        img.className = 'team-img';
+        img.alt = pick(m.name, 'en');           // alt stays in Latin script
+        img.addEventListener('error', function handleMissing() {
+            this.removeEventListener('error', handleMissing);
+            this.src = 'images/avatar_placeholder.jpg';
+        });
+        img.src = m.image || 'images/avatar_placeholder.jpg';
+        wrap.appendChild(img);
+        card.appendChild(wrap);
+
+        const name = document.createElement('h3');
+        name.className = 'team-name';
+        name.textContent = pick(m.name, lang);
+        card.appendChild(name);
+
+        const role = document.createElement('p');
+        role.className = 'team-role';
+        role.textContent = pick(m.role, lang);
+        card.appendChild(role);
+
+        grid.appendChild(card);
+    });
+
+    // Board of Directors and Rabbinic Advisor
+    const groups = [
+        { data: data.board,    title: '[data-content="boardTitle"]',    list: '[data-content="boardList"]' },
+        { data: data.rabbinic, title: '[data-content="rabbinicTitle"]', list: '[data-content="rabbinicList"]' },
+    ];
+    groups.forEach(({ data: g, title, list }) => {
+        if (!g) return;
+        const titleEl = document.querySelector(title);
+        const listEl = document.querySelector(list);
+        if (titleEl) titleEl.textContent = pick(g.title, lang);
+        if (listEl) {
+            const names = (lang === 'he' && Array.isArray(g.membersHe)) ? g.membersHe : g.members;
+            listEl.textContent = Array.isArray(names) ? names.join(' | ') : '';
+        }
+    });
+}
+
+function renderEditableContent(lang) {
+    renderNews(lang);
+    renderTeam(lang);
 }
 
 
@@ -1120,7 +1228,10 @@ function initStatsCounter() {
 
 // INTERACTIVE DOM EVENT LISTENERS
 document.addEventListener('DOMContentLoaded', () => {
-    
+
+    // Load news.json and team.json, then draw those sections.
+    loadSiteContent().then(() => renderEditableContent(currentLang));
+
     // Setup Language switch buttons
     document.querySelectorAll('.lang-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {

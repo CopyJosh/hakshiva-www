@@ -1,0 +1,41 @@
+[
+  {
+    "date": "2025-12-18",
+    "image": "images/news_story1.jpg",
+    "alt": "My Space",
+    "title": {
+      "en": "My Space",
+      "he": "המקום שלי"
+    },
+    "desc": {
+      "en": "A unique program designed for adolescent girls, helping them with their homework and engaging after-school activities in a warm, supportive environment.",
+      "he": "תכנית ייחודית המיועדת לנערות, המסייעת להן בהכנת שיעורי הבית ומציעה פעילויות לאחר שעות הלימודים בסביבה חמה ותומכת."
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "image": "images/news_story2.jpg",
+    "alt": "ADHD parenting workshop",
+    "title": {
+      "en": "ADHD parenting workshop",
+      "he": "סדנת הורים לקשב וריכוז (ADHD)"
+    },
+    "desc": {
+      "en": "Empowering parents with practical tools, strategies, and clinical insights to support children facing attention and executive function challenges.",
+      "he": "סדנת הורים לילדים עם הפרעות קשב וריכוז (ADHD) המעניקה כלים מעשיים, אסטרטגיות ותובנות קליניות לתמיכה בילדים."
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "image": "images/news_story3.jpg",
+    "alt": "Cog Fun",
+    "title": {
+      "en": "Cog Fun",
+      "he": "קוג פאן (Cog-Fun)"
+    },
+    "desc": {
+      "en": "Our next cohort for Cognitive-Functional training is open, helping children build executive functions and self-regulation skills.",
+      "he": "נפתח המחזור הבא של אימון קוגניטיבי-תפקודי (Cog-Fun) המסייע לילדים לפתח תפקודים ניהוליים ומיומנויות ויסות עצמי."
+    }
+  }
+]

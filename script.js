@@ -1171,29 +1171,55 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // CONTACT FORM DEMO HANDLER
+    // CONTACT FORM HANDLER
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
+        // There is no backend behind this form yet. Until there is, hand the
+        // message to the visitor's own mail client instead of claiming it was
+        // sent: the previous handler showed "Message Sent Successfully!" and
+        // discarded everything, so intake requests were lost in silence.
+        // The clinic's phone number, address and email sit beside this form.
+        const CONTACT_EMAIL = 'office@hakshiva.org';
+
         contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
-            
+
             const submitBtn = contactForm.querySelector('.contact-btn');
             const originalText = submitBtn.innerHTML;
+            const val = (id) => (document.getElementById(id)?.value || '').trim();
 
-            submitBtn.style.pointerEvents = 'none';
-            submitBtn.innerHTML = currentLang === 'he' ? 'שולח...' : 'Sending...';
+            const subjectEl = document.getElementById('clientSubject');
+            const subjectText = subjectEl?.options[subjectEl.selectedIndex]?.text
+                || (currentLang === 'he' ? 'פנייה מהאתר' : 'Website enquiry');
 
+            const labels = currentLang === 'he'
+                ? { name: 'שם', email: 'אימייל', phone: 'טלפון', msg: 'הודעה' }
+                : { name: 'Name', email: 'Email', phone: 'Phone', msg: 'Message' };
+
+            const body = [
+                `${labels.name}: ${val('clientName')}`,
+                `${labels.email}: ${val('clientEmail')}`,
+                `${labels.phone}: ${val('clientPhone')}`,
+                '',
+                `${labels.msg}:`,
+                val('clientMsg')
+            ].join('\n');
+
+            const href = `mailto:${CONTACT_EMAIL}`
+                + `?subject=${encodeURIComponent(subjectText)}`
+                + `&body=${encodeURIComponent(body)}`;
+
+            submitBtn.innerHTML = currentLang === 'he'
+                ? 'פותח את תוכנת הדוא"ל שלך...'
+                : 'Opening your email app...';
+
+            window.location.href = href;
+
+            // Do NOT reset the form. If no mail client opens, the visitor still
+            // has what they typed and can phone or email instead.
             setTimeout(() => {
-                submitBtn.innerHTML = currentLang === 'he' ? 'הודעתך נשלחה בהצלחה!' : 'Message Sent Successfully!';
-                submitBtn.style.background = 'var(--gradient-teal)';
-                contactForm.reset();
-
-                setTimeout(() => {
-                    submitBtn.style.pointerEvents = 'auto';
-                    submitBtn.innerHTML = originalText;
-                    submitBtn.style.background = '';
-                }, 3000);
-            }, 1200);
+                submitBtn.innerHTML = originalText;
+            }, 4000);
         });
     }
 

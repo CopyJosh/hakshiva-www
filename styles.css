@@ -1785,7 +1785,7 @@ ul {
         right: 0;
         width: 100% !important;
         height: 100vh;
-        background: rgba(7, 27, 47, 0.98);
+        background: rgb(7, 27, 47);
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(20px);
         flex-direction: column;
@@ -1890,7 +1890,9 @@ ul {
 
     /* Mobile Submenu styles */
     .dropdown-submenu {
-        grid-column: span 2;
+        /* The grid is a single 1fr column. Spanning 2 created an implicit
+           second column, which is what made the menu ragged on a phone. */
+        grid-column: 1 / -1;
         display: flex;
         flex-direction: column;
     }
@@ -2741,3 +2743,92 @@ ul {
     gap: 8px;
 }
 
+
+/* ==========================================
+   TOUCH TARGETS
+   WCAG 2.5.5 asks for 44x44 CSS pixels. Controls that sit in a stacked
+   list get real padding, because the extra separation is half the point.
+   Controls whose position must not move get an invisible ::after overlay
+   instead, which enlarges the hit area without touching layout.
+   ========================================== */
+
+/* The hamburger is the only route to navigation on a phone and measured
+   30x20. The overlay keeps the icon exactly where it is. */
+.hamburger {
+    position: relative;
+}
+.hamburger::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 48px;
+    height: 48px;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 992px) {
+    /* Fourteen footer links at 18px tall, stacked close together. */
+    .footer-link {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+    }
+
+    /* Service links inside the open mobile menu. */
+    .nav-menu .dropdown-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+    }
+    .dropdown-submenu > .dropdown-link {
+        justify-content: flex-start;
+    }
+
+    /* Language pill: grow it vertically only, so the two buttons never
+       overlap each other's hit area. */
+    .lang-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+    }
+
+    .social-icon-btn {
+        width: 44px;
+        height: 44px;
+    }
+
+    .support-card-link,
+    .support-card-link-btn {
+        min-height: 44px;
+    }
+
+    /* Service links inside the "What We Do" card dropdowns, 42px. */
+    .support-dropdown-menu a {
+        display: flex;
+        align-items: center;
+        min-height: 44px;
+    }
+
+    /* Phone and WhatsApp in the footer. These are the two controls a
+       parent is most likely to reach for on a phone. */
+    .footer-contact-info a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+    }
+
+    /* Short labels such as "Home" and "News" were only 38px wide. */
+    .footer-link {
+        min-width: 44px;
+    }
+
+    /* The nested clinic list is a hardcoded two-column grid. On a phone
+       that puts two long labels side by side in 132px each, which is
+       what wrapped the Hebrew ones across three lines. */
+    .nav-menu .submenu {
+        grid-template-columns: 1fr;
+    }
+}
